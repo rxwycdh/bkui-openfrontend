@@ -1,0 +1,24 @@
+html{
+    font-size:62.5%;
+}
+/*分辨率高于1400，采用下面的样式*/
+@media screen and (min-device-width: 1400px){
+    div{
+        font-size: 14px;
+    }
+}
+@media screen and (max-device-width:1600px){
+    div{
+        font-size: 12px;
+    }
+}
+
+@font-face {
+    font-family: tencentFont-W3;
+    src: url('../fonts/TencentSans-W3.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: tencentFont-W7;
+    src: url('../fonts/TencentSans-W7.ttf') format('truetype');
+}
